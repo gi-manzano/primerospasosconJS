@@ -24,6 +24,10 @@ for (let i = 0; i <= 20; i++){
 
 let  entrada = prompt ("Ingresar un nombre");
 while (entrada != "Salir"){
+    alert ("el usuarui ingreso" + entrada);
+    entrada = prompt ("Ingresar otro dato");
+}
+{
     switch (entrada){
         case "MARIA":
         alert ("HOLA MARIA");
